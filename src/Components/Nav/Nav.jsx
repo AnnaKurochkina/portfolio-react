@@ -21,14 +21,14 @@ const Nav = () => {
 			</div>
 			</div>
 
-			{/* <div className="hamburger" onClick={toggleHamburger}>
+			<div className="hamburger" onClick={toggleHamburger}>
 				<a href="#about" className="burger burger1">About</a>
 				<a href="#projects" className="burger burger2">Projects and skills</a>
 				<a href="#contact" className="burger burger3">Get in touch</a>
 				<div className="burger burger1"><a href="#about" className="burger burger1"></a>h</div>
 				<div className="burger burger2"></div>
 				<div className="burger burger3"></div>
-			</div> */}
+			</div>
 		</>
     )
 }
