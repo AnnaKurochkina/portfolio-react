@@ -1,0 +1,23 @@
+@use "../../Assets/_variables.scss" as *;
+
+.grid-container--skills {
+    display: grid;
+    gap: $spacing-medium;
+    grid-template-columns: repeat(3, 1fr);
+  
+    div:nth-child(1) {
+      grid-column-start: 1;
+      grid-column-end: 4;
+      font-size: $font-size-medium;
+      text-align: center;
+    }
+  
+    .grid-item {
+      text-align: center;
+    }
+  
+    i {
+      font-size: $font-size-large;
+      color: $color-primary;
+    }
+  }

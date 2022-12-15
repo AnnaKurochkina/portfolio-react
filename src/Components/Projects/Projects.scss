@@ -1,0 +1,21 @@
+@use "../../Assets/_variables.scss" as *;
+
+.grid-container--projects {
+    display: grid;
+    gap: $spacing-small $spacing-small;
+    grid-template-columns: repeat(3, 1fr);
+  
+    div:nth-child(1) {
+      grid-column-start: 1;
+      grid-column-end: 4;
+      background-color: $color-background;
+      font-size: $font-size-medium;
+    }
+  
+    .grid-item {
+      background-color: $color-grey;
+      padding: $spacing-small;
+      font-size: $font-size-small;
+      text-align: center;
+    }
+  }

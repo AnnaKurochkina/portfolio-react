@@ -1,0 +1,40 @@
+@use "../../Assets/_variables.scss" as *;
+
+footer {
+    display: flex;
+    flex-direction: row;
+    background-color: $color-secondary;
+    padding: $spacing-small;
+    text-align: center;
+    color: $color-info;
+  
+    a {
+      display: block;
+      justify-content: center;
+      align-items: center;
+      width: 100%;
+      text-decoration: none;
+      color: $color-info;
+  
+      font-size: $font-size-small;
+      color: $color-background;
+  
+      &:active {
+        color: $color-success;
+      }
+  
+      &:hover {
+        text-decoration: underline;
+        background-color: $color-secondary;
+      }
+    }
+  
+    i {
+      font-size: $font-size-medium;
+      color: $color-background;
+  
+      &:active {
+        color: $color-success;
+      }
+    }
+  }

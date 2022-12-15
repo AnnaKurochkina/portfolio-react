@@ -1,0 +1,50 @@
+@use "../../Assets/_variables.scss"as *;
+
+.grid-container--banner {
+	display: grid;
+	gap: 50px;
+	grid-template-columns: auto auto;
+	font-size: $font-size-small;
+	padding-top: $spacing-large;
+	background-color: rgb(48, 49, 57);
+	padding-top: 5rem;
+	padding: 5rem;
+
+	div:nth-child(1) {
+		align-self: center;
+	}
+
+	.grid-item {
+		font-size: $font-size-large;
+
+		&__photo img {
+			// opacity: 0.85;
+			border-radius: $spacing-small;
+			border-style: outset;
+		}
+	}
+
+	h1 {
+	color: rgb(234, 145, 43);
+	}
+}
+
+
+
+/* Mobile View */
+@media screen and (min-width: 390px) and (max-width: 844px) {
+
+	.grid-container--banner {
+		display: grid;
+		gap: $spacing-small;
+		grid-template-columns: auto;
+		padding-top: 0;
+
+		.grid-item {
+
+			&__photo {
+				display: none;
+			}
+		}
+	}
+}

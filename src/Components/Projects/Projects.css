@@ -1,0 +1,17 @@
+.grid-container--projects {
+  display: grid;
+  gap: 20px 20px;
+  grid-template-columns: repeat(3, 1fr);
+}
+.grid-container--projects div:nth-child(1) {
+  grid-column-start: 1;
+  grid-column-end: 4;
+  background-color: #303139;
+  font-size: 30px;
+}
+.grid-container--projects .grid-item {
+  background-color: #343a40;
+  padding: 20px;
+  font-size: 20px;
+  text-align: center;
+}

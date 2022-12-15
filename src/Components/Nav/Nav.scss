@@ -1,0 +1,62 @@
+@use "../../Assets/_variables.scss" as *;
+
+.header {
+    background-color: $color-grey;
+    display: grid;
+    grid-template-columns: 180px auto;
+    font-weight: bold;
+    z-index: 1030;
+    position: fixed;
+    width: 100%;
+  
+    .brand {
+      color: $color-info;
+      justify-content: center;
+      padding: $spacing-small;
+      font-size: $font-size-small;
+      width: 300px;
+  
+  
+      &:hover {
+        background-color: $color-secondary;
+        color: $color-success;
+      }
+    }
+  
+    .nav {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: end;
+      width: 100%;
+      color: $color-info;
+  
+      a {
+        text-decoration: none;
+        color: $color-info;
+        padding: $spacing-small;
+        height: 100%;
+        font-size: $font-size-small;
+  
+        &:hover {
+          background-color: $color-secondary;
+        }
+  
+        &:active {
+          color: $color-success;
+        }
+      }
+    }
+  }
+
+  /* Mobile View */
+@media screen and (min-width: 390px) and (max-width: 844px) {
+  header {
+    grid-template-columns: auto;
+    position: relative;
+
+    brand {
+      display: none;
+    }
+  }
+}
