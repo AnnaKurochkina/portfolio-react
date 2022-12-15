@@ -1,0 +1,22 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik+80s+Fade&display=swap");
+* {
+  box-sizing: border-box;
+  font-family: "Open Sans", sans-serif;
+  color: #ea912b;
+}
+
+.main {
+  background-color: #17033a;
+  margin-left: 15rem;
+}
+
+h1 {
+  font-family: "Rubik 80s Fade", cursive;
+}
+
+/* Mobile View */
+@media screen and (min-width: 390px) and (max-width: 844px) {
+  .main {
+    margin-left: 0;
+  }
+}

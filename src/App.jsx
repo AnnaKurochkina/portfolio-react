@@ -14,7 +14,7 @@ const App = () => {
   return ( 
     <div className="App">
       <Nav></Nav>
-      <div className="background-color">
+      <div className="main">
       <Banner></Banner>
       <Projects></Projects>
       <Skills></Skills>

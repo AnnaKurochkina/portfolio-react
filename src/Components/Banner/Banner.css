@@ -1,0 +1,36 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik+80s+Fade&display=swap");
+.grid-container--banner {
+  display: grid;
+  gap: 50px;
+  grid-template-columns: auto auto;
+  font-size: 20px;
+  padding-top: 50px;
+  background-color: #17033a;
+  padding-top: 5rem;
+  padding: 5rem;
+}
+.grid-container--banner div:nth-child(1) {
+  align-self: center;
+}
+.grid-container--banner .grid-item {
+  font-size: 50px;
+}
+.grid-container--banner .grid-item__photo img {
+  border-radius: 20px;
+}
+.grid-container--banner h1 {
+  color: #ea912b;
+}
+
+/* Mobile View */
+@media screen and (min-width: 390px) and (max-width: 844px) {
+  .grid-container--banner {
+    display: grid;
+    gap: 20px;
+    grid-template-columns: auto;
+    padding-top: 0;
+  }
+  .grid-container--banner .grid-item__photo {
+    display: none;
+  }
+}
