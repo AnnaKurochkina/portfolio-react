@@ -3,20 +3,23 @@
 footer {
     display: flex;
     flex-direction: row;
-    background-color: $color-grey;
+    background-color:  lighten($color-background, 5%);
     padding: $spacing-small;
     text-align: center;
     color: $color-primary;
-  
+
+
     a {
-      display: block;
+      display: flex;
       justify-content: center;
       align-items: center;
-      width: 100%;
+      width: 60%;
+	  
       text-decoration: none;
       color: $color-primary;
   
-      font-size: $font-size-small;
+    //   font-size: $font-size-small;
+	  font-size: $font-size-medium;
   
       &:active {
         color: $color-success;
@@ -36,4 +39,11 @@ footer {
     //     color: $color-success;
     //   }
     // }
+  }
+
+
+  @media screen and (min-width: 390px) and (max-width: 844px) {
+	footer {
+		background-color: $color-grey;
+	}
   }

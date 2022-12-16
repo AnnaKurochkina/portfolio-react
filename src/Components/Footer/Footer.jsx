@@ -1,5 +1,6 @@
 import "./Footer.scss";
 import React from "react";
+import { FaGithub, FaLinkedin } from "react-icons/fa";
 
 // import { faAtom, faLink, faLinkedi } from "@fortawesome/free-solid-svg-icons";
 // import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
@@ -15,10 +16,10 @@ import {
 const Footer = () => {
     return (
         <footer id="contact">
-        <a href="mailto: basia220586@gmail.com"><b>basia220586@gmail.com</b></a>
-        <a href="https://www.linkedin.com/in/anna-kurochkina-99244321b/" target="blank">Linkedin</a>
+        <a href="mailto: basia220586@gmail.com">basia220586@gmail.com</a>
+        <a href="https://www.linkedin.com/in/anna-kurochkina-99244321b/" target="blank"><FaLinkedin/></a>
         {/* <FontAwesomeIcon icon={faHome}></FontAwesomeIcon> */}
-        <a href="https://github.com/AnnaKurochkina" target="blank">GitHub<i class="fa-brands fa-square-github"></i></a>
+        <a href="https://github.com/AnnaKurochkina" target="blank"><FaGithub/></a>
         </footer>
     )
 }

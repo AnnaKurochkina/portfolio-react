@@ -1,22 +1,85 @@
 // @import url("https://fonts.googleapis.com/css2?family=Amaranth:wght@700&family=Open+Sans&display=swap");
 @import url('https://fonts.googleapis.com/css2?family=Courier+Prime:ital,wght@0,700;1,400&family=Trade+Winds&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Rubik+80s+Fade&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bangers&family=Gudea&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Teko&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Copse&family=Mulish&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lora&family=Poppins&display=swap');
 
-// $color-primary: #4c9be8;
+// // $color-primary: #4c9be8;
+// // $color-primary: rgb(234, 145, 43);
 // $color-primary: rgb(234, 145, 43);
-$color-primary: rgb(234, 145, 43);
-$color-secondary:#4e5d6c;
-// $color-background:rgb(48, 49, 57);
-$color-background: #09011d;
+// $color-secondary:#4e5d6c;
+// // $color-background:rgb(48, 49, 57);
+// // $color-background: #09011d;
+
+// $color-background: #422449;
+// // $color-light: lighten(#4e5d6c, 35%);
+// $color-light: lighten(#422449, 5%);
+// // $color-info: #5bc0de;
+// $color-info: #ba3a3a;
+// // $color-info: rgb(234, 145, 43);
+// $color-highlight: #20c997;
+// $color-success: #5cb85c;
+// // $color-grey: #343a40;
+// $color-grey: #2d1832;
+
+// $spacing-large: 50px;
+// $spacing-medium: 30px;
+// $spacing-small: 20px;
+
+// $font-size-small: 20px;
+// $font-size-medium: 30px;
+// $font-size-large: 50px;
+
+// $font-headings: 'Amaranth', sans-serif;
+// $font-text: 'Open Sans', sans-serif;
+
+
+// $font-text: 'Trade Winds', cursive;
+// $font-headings: 'Rubik 80s Fade', cursive;
+// $font-headings: 'Trade Winds', cursive;
+
+
+
+// $font-text: 'Gudea', sans-serif;
+// $font-headings:  'Bangers', cursive;
+// font-family: 'Bangers', cursive;
+// font-family: 'Gudea', sans-serif;
+
+// $font-headings:  'Teko', sans-serif;
+// $font-text: 'Montserrat', sans-serif;
+// font-family: 'Montserrat', sans-serif;
+// font-family: 'Teko', sans-serif;
+
+
+$font-headings: 'Copse', serif;
+$font-text: 'Mulish', sans-serif;
+// font-family: 'Copse', serif;
+// font-family: 'Mulish', sans-serif;
+
+
+// $font-headings: 'Lora', serif;
+// $font-text: 'Poppins', sans-serif;
+// font-family: 'Lora', serif;
+// font-family: 'Poppins', sans-serif;
+
+
+
+
+$color-primary: #ef9329;
+$color-secondary:#ef6a5f;
+
+$color-background: #2f4858;
 // $color-light: lighten(#4e5d6c, 35%);
-$color-light: lighten(#422449, 5%);
+$color-light: lighten(#2f4858, 5%);
 // $color-info: #5bc0de;
-$color-info: #ba3a3a;
+$color-info: #c75a86;
 // $color-info: rgb(234, 145, 43);
 $color-highlight: #20c997;
 $color-success: #5cb85c;
 // $color-grey: #343a40;
-$color-grey: #2d1832;
+$color-grey: #4a567e;
 
 $spacing-large: 50px;
 $spacing-medium: 30px;
@@ -25,11 +88,3 @@ $spacing-small: 20px;
 $font-size-small: 20px;
 $font-size-medium: 30px;
 $font-size-large: 50px;
-
-// $font-headings: 'Amaranth', sans-serif;
-// $font-text: 'Open Sans', sans-serif;
-
-
-$font-text: 'Trade Winds', cursive;
-// $font-text: 'Rubik 80s Fade', cursive;
-$font-headings: 'Trade Winds', cursive;

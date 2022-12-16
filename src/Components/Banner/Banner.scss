@@ -3,11 +3,11 @@
 .grid-container--banner {
 	display: grid;
 	gap: 50px;
-	grid-template-columns: auto auto;
+	grid-template-columns: 70% 30%;
 	font-size: $font-size-small;
 	padding-top: $spacing-large;
 	// background-color: $color-background;
-	padding-top: 5rem;
+	// padding-top: 5rem;
 	padding: 5rem;
 
 	div:nth-child(1) {
@@ -19,13 +19,18 @@
 
 		&__photo img {
 			// opacity: 0.85;
-			border-radius: $spacing-small;
+			// border-radius: $spacing-small;
+			// border-radius: 20rem;
+			width: 15rem;
+			height: 30rem;
 			// border-style: outset;
 		}
 	}
 
 	h1 {
-	color: rgb(234, 145, 43);
+	color: $color-primary;
+	// text-shadow: 2px 2px #FF0000;
+	text-shadow: 3px 3px rgb(27, 27, 27);
 	}
 }
 

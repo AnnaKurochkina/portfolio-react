@@ -1,5 +1,6 @@
 import "./Skills.scss";
 import React from "react";
+import { FaDatabase, FaGit, FaHtml5, FaJava, FaJsSquare, FaLeaf, FaReact, FaSass } from "react-icons/fa";
 
 const Skills = () => {
 
@@ -8,18 +9,15 @@ const Skills = () => {
             <div class="grid-item">
                 <h1>Skills</h1>
             </div>
-            <div class="grid-item">
-                <i class="fa-brands fa-html5"></i>
-                <h2>HTML</h2>
-            </div>
-            <div class="grid-item">
-                <i class="fa-brands fa-sass"></i>
-                <h2>SASS</h2>
-            </div>
-            <div class="grid-item">
-                <i class="fa-brands fa-js"></i>
-                <h2>JavaScript</h2>
-            </div>
+            <div class="grid-item"><FaGit/><h6>Git</h6></div>
+			<div class="grid-item"><FaHtml5/><h6>HTML</h6></div>
+			<div class="grid-item"><FaSass/><h6>Sass</h6></div>
+			<div class="grid-item"><FaJsSquare/><h6>Javascript</h6></div>
+			<div class="grid-item"><FaReact/><h6>React</h6></div>
+			<div class="grid-item"><FaJava/><h6>Java</h6></div>
+			<div class="grid-item"><FaLeaf/><h6>Spring Boot</h6></div>
+			<div class="grid-item"><FaDatabase/><h6>SQL</h6></div>
+			<div class="grid-item"><h6>BEM</h6></div>
         </section>
     )
 }
