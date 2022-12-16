@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/portfolio-react/static/css/main.10801bb6.css",
+    "main.js": "/portfolio-react/static/js/main.60bae961.js",
+    "static/js/787.aeca62f9.chunk.js": "/portfolio-react/static/js/787.aeca62f9.chunk.js",
+    "static/media/PhotoOfMe.png": "/portfolio-react/static/media/PhotoOfMe.8af9f86618ddf9f9ca45.png",
+    "static/media/SnapGame.png": "/portfolio-react/static/media/SnapGame.c003a9c8e2e0d9abcc0c.png",
+    "static/media/Punkapi.png": "/portfolio-react/static/media/Punkapi.cbc5366a869b41bc84c3.png",
+    "static/media/QuadraClientProject.png": "/portfolio-react/static/media/QuadraClientProject.1893ffd587048b20f0f0.png",
+    "static/media/CalculatorPicture3.png": "/portfolio-react/static/media/CalculatorPicture3.47750c2c259a74ea7c44.png",
+    "static/media/MemoryGame1.png": "/portfolio-react/static/media/MemoryGame1.ea8b60fff1a7cbd66922.png",
+    "static/media/Me.png": "/portfolio-react/static/media/Me.3dc20d7a9f1fca39e802.png",
+    "static/media/FullStackProject.png": "/portfolio-react/static/media/FullStackProject.a361b36e60d214bc87c6.png",
+    "index.html": "/portfolio-react/index.html",
+    "main.10801bb6.css.map": "/portfolio-react/static/css/main.10801bb6.css.map",
+    "main.60bae961.js.map": "/portfolio-react/static/js/main.60bae961.js.map",
+    "787.aeca62f9.chunk.js.map": "/portfolio-react/static/js/787.aeca62f9.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.10801bb6.css",
+    "static/js/main.60bae961.js"
+  ]
+}
