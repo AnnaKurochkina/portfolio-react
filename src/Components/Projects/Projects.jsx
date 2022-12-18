@@ -73,7 +73,7 @@ const Projects = () => {
                 </a>
                 <h2>Quadra client project</h2>
                 <p>
-                    Currency converter. Front end web site made with React. Was
+                    Currency converter. <a href="https://github.com/nology-tech/quadra-client-project">GitHub</a> Front end web site made with React. Was
                     made from scratch collaboratively with my classmates, for
                     practicing pair-programming and scrum
                 </p>
