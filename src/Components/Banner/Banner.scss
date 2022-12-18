@@ -7,6 +7,7 @@
 	font-size: $font-size-small;
 	padding-top: $spacing-large;
 	padding: 5rem;
+	margin-left: 17rem;
 
 	div:nth-child(1) {
 		align-self: center;
@@ -88,6 +89,7 @@
 		gap: $spacing-small;
 		grid-template-columns: auto;
 		padding-top: 0;
+		margin-left: 0;
 
 		.grid-item {
 

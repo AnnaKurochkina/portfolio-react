@@ -4,7 +4,7 @@ import Me from "../../Assets/Pictures/Me.png";
 
 const About = () => {
     return (
-        <section className="grid-container--about" id="about">
+        <section className="grid-container--about about" id="about">
             <div className="grid-item__photo">
                 <h1>About</h1>
                 <p>

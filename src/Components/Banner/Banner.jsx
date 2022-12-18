@@ -6,7 +6,7 @@ import PhotoOfMe from "../../Assets/Pictures/PhotoOfMe.png";
 const Banner = () => {
 
     return (
-        <div className="grid-container--banner" id="home">
+        <div className="grid-container--banner home" id="home">
             <div className="grid-item">
 				<h1>
 					<span>I'm&nbsp;</span>

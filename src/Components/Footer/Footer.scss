@@ -1,12 +1,13 @@
 @use "../../Assets/_variables.scss"as *;
 
-footer {
+.contacts {
 	display: flex;
 	flex-direction: row;
 	background-color: lighten($color-background, 5%);
 	padding: $spacing-small;
 	text-align: center;
 	color: $color-primary;
+	margin-left: 15rem;
 
 
 	a {
@@ -17,6 +18,7 @@ footer {
 		text-decoration: none;
 		color: $color-primary;
 		font-size: $font-size-medium;
+		background-color: $color-light;
 
 		&:active {
 			color: $color-success;
@@ -24,14 +26,15 @@ footer {
 
 		&:hover {
 			text-decoration: underline;
-			background-color: $color-secondary;
+			background-color: $color-background;
 		}
 	}
 
 }
 
 @media screen and (min-width: 390px) and (max-width: 844px) {
-	footer {
+	.contacts {
 		background-color: $color-primary;
+		margin-left: 0;
 	}
 }

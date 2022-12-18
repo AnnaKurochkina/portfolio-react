@@ -8,10 +8,15 @@
 	top: 0;
 	left: 0;
 	background-color: $color-light;
-	// background-color:#485A73;
 	overflow-x: hidden;
 	padding-top: 20px;
 	font-weight: bold;
+
+	.nav {
+		a {
+			background-color: $color-light;
+		}
+	}
 
 	a {
 		display: flex;
@@ -21,7 +26,6 @@
 
 		&:hover {
 			background-color: $color-background;
-			// background-color: $color-background;
 		}
 
 		&:active {
@@ -35,13 +39,6 @@
 /* Mobile View */
 @media screen and (min-width: 390px) and (max-width: 844px) {
 
-	.hamburger {
-		display: block;
-		padding-top: 10px;
-		margin-left: 10px;
-		z-index: 10000;
-	}
-
 	.sidenav {
 		display: inline;
 		width: 100%;
@@ -49,17 +46,13 @@
 
 		a {
 			display: inline;
+			background-color: $color-light;
 		}
 	}
-
-
 
 	.header {
 		grid-template-columns: auto;
 		position: relative;
 
-		.brand {
-			display: none;
-		}
 	}
 }

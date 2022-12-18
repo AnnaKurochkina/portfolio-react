@@ -9,11 +9,11 @@ import FullStackProject from "../../Assets/Pictures/FullStackProject.png";
 
 const Projects = () => {
     return (
-        <section class="grid-container--projects" id="projects">
-            <div class="grid-item">
+        <section className="grid-container--projects projects" id="projects">
+            <div className="grid-item">
                 <h1>Projects</h1>
             </div>
-            <div class="grid-item">
+            <div className="grid-item">
                 <a href="#">
                     <img
                         src={CalculatorPicture3}
@@ -33,7 +33,7 @@ const Projects = () => {
                     .
                 </p>
             </div>
-            <div class="grid-item">
+            <div className="grid-item">
                 <a href="#">
                     <img src={MemoryGame1} alt="Memory Game Picture" />
                 </a>
@@ -50,7 +50,7 @@ const Projects = () => {
                     </a>
                 </p>
             </div>
-            <div class="grid-item">
+            <div className="grid-item">
                 <a href="#">
                     <img src={Punkapi} alt="Punk API project picture" />
                 </a>
@@ -67,7 +67,7 @@ const Projects = () => {
                     </a>
                 </p>
             </div>
-            <div class="grid-item">
+            <div className="grid-item">
                 <a href="#">
                     <img src={QuadraClientProject} alt="QuadraClientProject" />
                 </a>
@@ -78,7 +78,7 @@ const Projects = () => {
                     practicing pair-programming and scrum
                 </p>
             </div>
-            <div class="grid-item">
+            <div className="grid-item">
                 <a href="#">
                     <img src={SnapGame} alt="SnapGame" />
                 </a>
@@ -90,7 +90,7 @@ const Projects = () => {
                     </a>{" "}
                 </p>
             </div>
-            <div class="grid-item">
+            <div className="grid-item">
                 <a href="#">
                     <img src={FullStackProject} alt="FullStackProject" />
                 </a>

@@ -1,18 +1,19 @@
-@use "./Assets/_variables.scss" as *;
+@use "./Assets/_variables.scss"as *;
 
 * {
-  box-sizing: border-box;
-  font-family: $font-text;
-  color: $color-primary;
+	box-sizing: border-box;
+	font-family: $font-text;
+	color: $color-primary;
+	background-color: $color-background;
 }
 
 .main {
-  background-color: $color-background;
+	background-color: $color-background;
 	margin-left: 15rem;
 }
 
 h1 {
-  font-family: $font-headings;
+	font-family: $font-headings;
 }
 
 /* Mobile View */

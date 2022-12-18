@@ -1,27 +1,23 @@
 import "./Nav.scss";
 import React from "react";
-import { useState } from "react";
+import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
+
 
 const Nav = () => {
 
-	// const [hamburgerOpen, setHamburgerOpen] = useState(false);
-
-	// const toggleHamburger = () => {
-	// 	setHamburgerOpen(!hamburgerOpen);
-	// }
-
-    return ( 
-		<>
-			<div className="sidenav">
-			<div className="nav">
-				<a href="#home">Home</a>
-				<a href="#about">About</a>
-				<a href="#projects">Projects and skills</a>
-				<a href="#contact">Get in touch</a>
-			</div>
-			</div>
-		</>
-    )
-}
+    return (
+        <>
+            <div className="sidenav">
+                <div className="nav">
+                    <Link to="/">Home</Link>
+					<Link to="/about">About</Link>
+					<Link to="/projects">Projects</Link>
+					<Link to="/skills">Skills</Link>
+					<Link to="/contact">Get in touch</Link>
+                </div>
+            </div>
+        </>
+    );
+};
 
 export default Nav;
