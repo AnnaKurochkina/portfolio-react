@@ -2,8 +2,11 @@
 
 .contacts {
 	display: flex;
-	flex-direction: row;
-	background-color: lighten($color-background, 5%);
+	flex-direction:column;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+	background-color: $color-background;
 	padding: $spacing-small;
 	text-align: center;
 	color: $color-primary;
@@ -17,8 +20,8 @@
 		width: 60%;
 		text-decoration: none;
 		color: $color-primary;
-		font-size: $font-size-medium;
-		background-color: $color-light;
+		font-size: $font-size-large;
+		margin: 2rem;
 
 		&:active {
 			color: $color-success;
