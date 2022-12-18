@@ -6,9 +6,16 @@ import PhotoOfMe from "../../Assets/Pictures/PhotoOfMe.png";
 const Banner = () => {
 
     return (
-        <div className="grid-container--banner">
+        <div className="grid-container--banner" id="home">
             <div className="grid-item">
-                <h1>I'm Anna <br/> full-stack Software Developer</h1>
+				<h1>
+					<span>I'm&nbsp;</span>
+					<span>Anna,&nbsp;</span><br/>
+					<span>junior&nbsp;</span>
+					<span>full-stack&nbsp;</span>
+					<span>Software&nbsp;</span>
+					<span>Developer&nbsp;</span>
+				</h1>
             </div>
             <div className="grid-item__photo">
                 <img src={Me} alt="My Photo" />

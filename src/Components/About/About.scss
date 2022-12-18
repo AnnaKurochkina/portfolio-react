@@ -38,6 +38,7 @@
 
 }
 
+/* Mobile View */
 @media screen and (min-width: 390px) and (max-width: 844px) {
 	section.grid-container--about {
 		display: grid;
@@ -55,9 +56,9 @@
 		.grid-item__photo img {
 			display: block;
 			margin: auto;
-			// border-radius: 20rem;
-			width: 15rem;
-			height: 30rem;
+			width: 17rem;
+			height: 33rem;
+			border-radius: 5px;
 		}
 	}
 }

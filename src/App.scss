@@ -1,17 +1,9 @@
 @use "./Assets/_variables.scss" as *;
 
 * {
-  // margin: 0;
-  // padding: 0;
   box-sizing: border-box;
   font-family: $font-text;
-  // display: flex;
-  // flex-direction: column;
-  // justify-content: center;
-  // align-items: center;
-  // background-color: rgb(48, 49, 57);
   color: $color-primary;
-  // padding: 50px;
 }
 
 .main {
@@ -29,46 +21,3 @@ h1 {
 		margin-left: 0;
 	}
 }
-
-
-// footer {
-//   display: flex;
-//   flex-direction: row;
-//   background-color: $color-secondary;
-//   padding: $spacing-small;
-//   text-align: center;
-
-
-//   a {
-//     width: 200px;
-    
-
-//     display: block;
-//     justify-content: center;
-//     align-items: center;
-//     // width: 100%;
-//     text-decoration: none;
-//     color: $color-info;
-
-//     font-size: $font-size-small;
-//     color: $color-background;
-
-//     &:active {
-//       color: $color-success;
-//     }
-
-//     &:hover {
-//       text-decoration: underline;
-//       background-color: $color-secondary;
-//     }
-//   }
-
-//   i {
-//     font-size: $font-size-medium;
-//     color: $color-background;
-
-//     &:active {
-//       color: $color-success;
-//     }
-//   }
-// }

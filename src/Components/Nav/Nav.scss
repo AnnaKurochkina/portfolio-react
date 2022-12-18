@@ -1,60 +1,5 @@
 @use "../../Assets/_variables.scss"as *;
 
-.header {
-	// background-color: $color-grey;
-	// display: grid;
-	// grid-template-columns: 180px auto;
-	font-weight: bold;
-	// z-index: 1030;
-	// position: fixed;
-	// width: 100%;
-
-	.brand {
-		// color: $color-info;
-		justify-content: center;
-		padding: $spacing-small;
-		font-size: $font-size-small;
-		width: 300px;
-
-
-		&:hover {
-			background-color: $color-secondary;
-			color: $color-success;
-		}
-	}
-
-	.nav {
-		display: flex;
-		flex-direction: column;
-		align-items: center;
-		justify-content: end;
-		width: 60px;
-		// color: $color-info;
-		background-color: $color-grey;
-
-		//   flex-wrap: wrap;
-		//   float: right;
-		//   margin: 20px 0px;
-		//   padding: 0 25px;
-
-		//   a {
-		//     text-decoration: none;
-		//     color: $color-info;
-		//     padding: $spacing-small;
-		//     height: 100%;
-		//     font-size: $font-size-small;
-
-		//     &:hover {
-		//       background-color: $color-secondary;
-		//     }
-
-		//     &:active {
-		//       color: $color-success;
-		//     }
-		//   }
-	}
-}
-
 .sidenav {
 	height: 100%;
 	width: 15rem;
@@ -62,49 +7,29 @@
 	z-index: 1;
 	top: 0;
 	left: 0;
-	background-color: lighten($color-background, 5%);
+	background-color: $color-light;
+	// background-color:#485A73;
 	overflow-x: hidden;
 	padding-top: 20px;
-
-
+	font-weight: bold;
 
 	a {
 		display: flex;
 		text-decoration: none;
-		// color: $color-info;
 		padding: $spacing-small;
 		font-size: $font-size-small;
 
 		&:hover {
 			background-color: $color-background;
+			// background-color: $color-background;
 		}
 
 		&:active {
-			color: $color-primary;
+			color: $color-secondary;
 		}
 	}
 
 
-}
-
-.hamburger {
-	display: none;
-	width: 2rem;
-	height: 2rem;
-	// display: flex;
-	// justify-content: space-around;
-	// flex-flow: column nowrap;
-	z-index: 100000;
-}
-
-.burger {
-	display: none;
-	width: 2rem;
-	height: 0.25rem;
-	border-radius: 10px;
-	background-color: black;
-	transform-origin: 1px;
-	transition: all 0.3s linear;
 }
 
 /* Mobile View */
@@ -125,15 +50,6 @@
 		a {
 			display: inline;
 		}
-
-		// position: fixed;
-		// z-index: 1;
-		// top: 0;
-		// left: 0;
-		// overflow-x: hidden;
-		// padding-top: 20px;
-
-
 	}
 
 
@@ -145,29 +61,5 @@
 		.brand {
 			display: none;
 		}
-
-		// .nav > a {
-		// 	// display: flex;
-		// 	// flex-direction: row;
-
-
-		// 		display: inline;
-		// 		// text-decoration: none;
-		// 		// color: $color-info;
-		// 		// padding: $spacing-small;
-		// 		// font-size: $font-size-small;
-
-		// 		&:hover {
-		// 		  background-color: $color-secondary;
-		// 		}
-
-		// 		&:active {
-		// 		  color: $color-success;
-		// 		}
-
-		// }
-
-
-
 	}
 }

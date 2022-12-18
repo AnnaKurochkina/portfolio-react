@@ -1,49 +1,37 @@
-@use "../../Assets/_variables.scss" as *;
+@use "../../Assets/_variables.scss"as *;
 
 footer {
-    display: flex;
-    flex-direction: row;
-    background-color:  lighten($color-background, 5%);
-    padding: $spacing-small;
-    text-align: center;
-    color: $color-primary;
+	display: flex;
+	flex-direction: row;
+	background-color: lighten($color-background, 5%);
+	padding: $spacing-small;
+	text-align: center;
+	color: $color-primary;
 
 
-    a {
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      width: 60%;
-	  
-      text-decoration: none;
-      color: $color-primary;
-  
-    //   font-size: $font-size-small;
-	  font-size: $font-size-medium;
-  
-      &:active {
-        color: $color-success;
-      }
-  
-      &:hover {
-        text-decoration: underline;
-        background-color: $color-secondary;
-      }
-    }
-  
-    // i {
-    //   font-size: $font-size-medium;
-    //   color: $color-background;
-  
-    //   &:active {
-    //     color: $color-success;
-    //   }
-    // }
-  }
+	a {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		width: 60%;
+		text-decoration: none;
+		color: $color-primary;
+		font-size: $font-size-medium;
 
+		&:active {
+			color: $color-success;
+		}
 
-  @media screen and (min-width: 390px) and (max-width: 844px) {
-	footer {
-		background-color: $color-grey;
+		&:hover {
+			text-decoration: underline;
+			background-color: $color-secondary;
+		}
 	}
-  }
+
+}
+
+@media screen and (min-width: 390px) and (max-width: 844px) {
+	footer {
+		background-color: $color-primary;
+	}
+}
