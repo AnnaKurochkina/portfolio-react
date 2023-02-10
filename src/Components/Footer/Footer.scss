@@ -10,8 +10,6 @@
 	padding: $spacing-small;
 	text-align: center;
 	color: $color-primary;
-	margin-left: 15rem;
-
 
 	a {
 		display: flex;
@@ -35,9 +33,13 @@
 
 }
 
-@media screen and (min-width: 390px) and (max-width: 844px) {
+@media screen and (max-width: 600px) {
 	.contacts {
-		background-color: $color-primary;
 		margin-left: 0;
+
+		a {
+			font-size: x-large;
+
+		}
 	}
 }

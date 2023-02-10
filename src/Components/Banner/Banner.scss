@@ -7,7 +7,6 @@
 	font-size: $font-size-small;
 	padding-top: $spacing-large;
 	padding: 5rem;
-	margin-left: 17rem;
 
 	div:nth-child(1) {
 		align-self: center;
@@ -78,11 +77,10 @@
 			filter: blur(0);
 		}
 	}
-
 }
 
 /* Mobile View */
-@media screen and (min-width: 390px) and (max-width: 844px) {
+@media screen and (max-width: 600px) {
 
 	.grid-container--banner {
 		display: grid;
@@ -95,6 +93,10 @@
 
 			&__photo {
 				display: none;
+			}
+
+			h1 {
+				font-size: 4rem;
 			}
 		}
 	}

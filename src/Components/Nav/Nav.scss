@@ -1,59 +1,68 @@
 @use "../../Assets/_variables.scss"as *;
 
-.sidenav {
-	height: 100%;
-	width: 15rem;
-	position: fixed;
-	z-index: 1;
-	top: 0;
-	left: 0;
+.nav {
 	background-color: $color-light;
-	overflow-x: hidden;
-	padding-top: 20px;
+	height: 100vh;
+	display: flex;
+	flex-direction: column;
 	font-weight: bold;
-
-	.nav {
-		a {
-			background-color: $color-light;
-		}
-	}
-
-	a {
-		display: flex;
-		text-decoration: none;
-		padding: $spacing-small;
-		font-size: $font-size-small;
-
-		&:hover {
-			background-color: $color-background;
-		}
-
-		&:active {
-			color: $color-secondary;
-		}
-	}
-
-
+	z-index: 1;
 }
 
-/* Mobile View */
-@media screen and (max-width: 833px) {
+.nav a {
+	float: left;
+	display: block;
+	color: $color-primary;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+	font-size: 1.5rem;
+	background-color: $color-light;
+}
 
-	.sidenav {
-		display: inline;
+.nav a:hover {
+	background-color: $color-background;
+	color: $color-primary;
+}
+
+.nav .icon {
+	display: none;
+}
+
+@media screen and (min-width: 300px) and (max-width: 1194px) {
+	.nav {
+		background-color: $color-background;
+		display: flex;
 		width: 100%;
 		height: 5rem;
-
-		a {
-			display: inline;
-			background-color: $color-light;
-		}
 	}
 
-	.header {
-		grid-template-columns: auto;
-		position: relative;
+	.nav a {
+		display: none;
+	}
 
+	.nav a.icon {
+		display: flex;
+		justify-content: flex-end;
 	}
 }
 
+@media screen and (min-width: 300px) and (max-width: 1194px) {
+
+	.nav.responsive {
+		position: relative;
+		background-color: $color-background;
+	}
+
+	.nav.responsive .icon {
+		position: absolute;
+		right: 0;
+		top: 0;
+	}
+
+	.nav.responsive a {
+		float: none;
+		display: block;
+		text-align: left;
+	}
+}

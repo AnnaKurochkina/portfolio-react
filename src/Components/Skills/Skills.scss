@@ -4,7 +4,6 @@
 	display: grid;
 	gap: $spacing-medium;
 	grid-template-columns: repeat(5, 1fr);
-	margin-left: 17rem;
 
 	div:nth-child(1) {
 		grid-column-start: 1;
@@ -26,7 +25,7 @@
 }
 
 /* Mobile View */
-@media screen and (min-width: 390px) and (max-width: 844px) {
+@media screen and (max-width: 600px) {
 	.grid-container--skills {
 		margin-left: 0;
 	}

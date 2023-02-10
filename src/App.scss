@@ -9,16 +9,24 @@
 
 .main {
 	background-color: $color-background;
-	margin-left: 15rem;
 }
 
 h1 {
 	font-family: $font-headings;
 }
 
+.container {
+	display: flex;
+	flex-direction: row;
+}
+
 /* Mobile View */
-@media screen and (min-width: 390px) and (max-width: 844px) {
+@media screen and (min-width: 390px) and (max-width: 1100px) {
 	.main {
 		margin-left: 0;
+	}
+
+	.container {
+		display:block
 	}
 }

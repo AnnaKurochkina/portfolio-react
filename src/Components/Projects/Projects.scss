@@ -6,7 +6,6 @@
 	grid-template-columns: repeat(3, 1fr);
 	margin: 2rem;
 	background-color: $color-background;
-	margin-left: 17rem;
 	margin-top: 0;
 
 	div:nth-child(1) {
@@ -35,7 +34,7 @@
 }
 
 /* Mobile View */
-@media screen and (min-width: 390px) and (max-width: 844px) {
+@media screen and (max-width: 600px) {
 	section.grid-container--projects {
 		display: grid;
 		grid-template-columns: repeat(1, 1fr);
