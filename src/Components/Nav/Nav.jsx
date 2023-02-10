@@ -17,7 +17,7 @@ const Nav = () => {
 				<Link className="icon" onClick={toggleResponsive}>
 					{<FaBars />}
 				</Link>
-				<Link to="portfolio-react/">Home</Link>
+				<Link to="/portfolio-react/">Home</Link>
 				<Link to="/about">About</Link>
 				<Link to="/projects">Projects</Link>
 				<Link to="/skills">Skills</Link>
